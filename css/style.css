@@ -1,8 +1,23 @@
+@font-face {
+  font-family: _Ubuntu;
+  src: url("/ubuntu-font-family/Ubuntu-R.ttf");
+}
+@font-face {
+  font-family: _Ubuntu;
+  src: url("/ubuntu-font-family/Ubuntu-B.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: _Ubuntu;
+  src: url("/ubuntu-font-family/Ubuntu-I.ttf");
+  font-style: italic;
+}
+
 p, h1, h2, h3, h4, h5, li, a, address {
   margin: 0;
   padding: 0;
 
-  font-family: Ubuntu, Georgia, Palatino, Times, 'Times New Roman', sans-serif;
+  font-family: _Ubuntu, Ubuntu, Georgia, Palatino, Times, 'Times New Roman', sans-serif;
 }
 img{
     border: 0 none #000;
