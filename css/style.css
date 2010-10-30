@@ -25,6 +25,10 @@ p, h1, h2, h3, h4, h5, li, a, address {
 
   font-family: _Ubuntu, Ubuntu, Georgia, Palatino, Times, 'Times New Roman', sans-serif;
 }
+ul {
+  margin: 1px;
+  padding: 0;
+}
 img{
     border: 0 none #000;
 }
@@ -55,14 +59,20 @@ a:hover {
 }
 
 div.images{
-    background-color: #aa9966;
-    margin: 1em 0.3em;
-    padding: 4px 4px 3px 4px;
-    border-radius: 6px;
-    -moz-border-radius: 6px;
+/*
+#    background-color: #f8e0bb;
+#    padding: 4px 4px 3px 4px;
+#    border-radius: 6px;
+#    -moz-border-radius: 6px;
+ */
+    margin: 1em 0.75em;
+    padding: 1.5em 0.1em 0.7em;
     text-align: center;
     font-size: smaller;
     color: #555;
+    border-width: 1px 0;
+    border-color: #440000;
+    border-style: solid;
 }
 div.images div{
   margin: 0.3em 0;
@@ -84,6 +94,15 @@ div.images div{
   line-height: 40px;
 
   letter-spacing: -1px;
+  border-bottom: 1px solid #200;
+  padding-bottom: 0.25em;
+  margin-bottom: 0.45em;
+}
+
+#main h3 {
+    color: #333;
+    border-left: 6px solid #333;
+    padding-left: 0.5em;
 }
 
 #main p {

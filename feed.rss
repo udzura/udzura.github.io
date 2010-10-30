@@ -16,7 +16,6 @@
     <updated>2010-10-30T04:07:11Z</updated>
     <link href="http://udzura.quail-quill.org/news/2010-11-01/" rel="alternate"/>
     <content type="html">&lt;h1 id="hi-im-a-new-item"&gt;Hi, I&amp;rsquo;m a new item!&lt;/h1&gt;
-&lt;hr /&gt;
 
 &lt;ul&gt;
   &lt;li&gt;test&lt;/li&gt;
@@ -30,7 +29,6 @@
     <updated>2010-10-30T04:07:10Z</updated>
     <link href="http://udzura.quail-quill.org/about/udzura/" rel="alternate"/>
     <content type="html">&lt;h1 id="me---udzura"&gt;me - @udzura&lt;/h1&gt;
-&lt;hr /&gt;
 
 &lt;h2 id="me"&gt;me?&lt;/h2&gt;
 &lt;p&gt;Uchio Kondo(@udzura) is a programmer.&lt;/p&gt;
