@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://udzura.quail-quill.org/</id>
+  <title>Feed of udzura.jp</title>
+  <updated>2010-10-30T04:07:11Z</updated>
+  <link href="http://udzura.quail-quill.org/" rel="alternate"/>
+  <link href="http://udzura.quail-quill.org/feed.rss" rel="self"/>
+  <author>
+    <name>Uchio Kondo</name>
+    <uri>http://udzura.jp</uri>
+  </author>
+  <entry>
+    <id>tag:udzura.quail-quill.org,2010-10-30:/news/2010-11-01/</id>
+    <title type="html">test news</title>
+    <published>2010-10-30T04:07:11Z</published>
+    <updated>2010-10-30T04:07:11Z</updated>
+    <link href="http://udzura.quail-quill.org/news/2010-11-01/" rel="alternate"/>
+    <content type="html">&lt;h1 id="hi-im-a-new-item"&gt;Hi, I&amp;rsquo;m a new item!&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;test&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:udzura.quail-quill.org,2010-10-30:/about/udzura/</id>
+    <title type="html">Uchio Kondo</title>
+    <published>2010-10-30T04:07:10Z</published>
+    <updated>2010-10-30T04:07:10Z</updated>
+    <link href="http://udzura.quail-quill.org/about/udzura/" rel="alternate"/>
+    <content type="html">&lt;h1 id="me---udzura"&gt;me - @udzura&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;h2 id="me"&gt;me?&lt;/h2&gt;
+&lt;p&gt;Uchio Kondo(@udzura) is a programmer.&lt;/p&gt;
+
+&lt;h3 id="skills"&gt;skills&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Ruby Language (Jan, 2009 - )&lt;/li&gt;
+  &lt;li&gt;Linux Skills, especially Ubuntu/Debian&lt;/li&gt;
+  &lt;li&gt;Database Skills (Passed IPA(Japan) Database Specialist Exam on 2010)
+    &lt;ul&gt;
+      &lt;li&gt;MySQL&lt;/li&gt;
+      &lt;li&gt;Oracle&lt;/li&gt;
+      &lt;li&gt;SQL Server&lt;/li&gt;
+      &lt;li&gt;PostgreSQL&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Very little PHP&lt;/li&gt;
+  &lt;li&gt;Lerning Java/Scala/Groovy&amp;hellip;&lt;/li&gt;
+  &lt;li&gt;more&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="bio"&gt;bio&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;FMS inc. since 2010-03-01&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:udzura.quail-quill.org,2010-10-28:/about/udzura.jp/</id>
+    <title type="html">udzura.jp</title>
+    <published>2010-10-28T04:07:11Z</published>
+    <updated>2010-10-28T04:07:11Z</updated>
+    <link href="http://udzura.quail-quill.org/about/udzura.jp/" rel="alternate"/>
+    <content type="html">&lt;p&gt;Hi, I&amp;rsquo;m a new item!&lt;/p&gt;
+</content>
+  </entry>
+</feed>
