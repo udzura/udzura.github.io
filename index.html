@@ -5,12 +5,17 @@
     <title>udzura.jp - Home</title>
     <link rel="stylesheet" type="text/css" href="/css/style.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/css/sh_style.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/css/lightbox.css" media="screen">
     <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
     <link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
 
     <script type="text/javascript" src="/js/sh_main.js"></script>
     <script type="text/javascript" src="/js/sh_ruby.js"></script>
     <script type="text/javascript" src="/js/sh_sh.js"></script>
+    <script type="text/javascript" src="/js/prototype.js"></script>
+    <script type="text/javascript" src="/js/scriptaculous.js?load=effects,builder"></script>
+    <script type="text/javascript" src="/js/lightbox.js"></script>
+
     <meta name="generator" content="nanoc 3.1.5">
   </head>
   <body onload="sh_highlightDocument();">
@@ -20,7 +25,7 @@
 <p>i'm udzura (Uchio Kondo). i'm here.</p>
 <pre class='sh_ruby'>
 echo.hoge
-puts &quot;&lt;Nanoc3::Item:0x3fbfcb9286d0 identifier=/ binary?=false&gt;&quot;</pre>
+puts &quot;&lt;Nanoc3::Item:0x3f8ce14cbbf4 identifier=/ binary?=false&gt;&quot;</pre>
 <pre class='sh_sh'>function tasu {
     echo $1 $2 + p | dc
     return $?
@@ -45,7 +50,7 @@ end</pre>
   <div>画像のサンプルです</div>
 </div>
 <div class='images'>
-  <a href="/images/150709359.jpg"><img src="/images/150709359.jpg" width='250' /></a>
+  <a href="/images/150709359.jpg" rel="lightbox" title="あくびちゃん"><img src="/images/150709359.jpg" width='250' /></a>
   <div>画像のサンプル＋リンクです</div>
 </div>
 <h3>about</h3>
