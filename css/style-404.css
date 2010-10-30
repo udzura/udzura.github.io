@@ -1,0 +1,8 @@
+body {
+    color: #666;
+}
+#main h1 {
+    color: red;
+    border-color: red;
+}
+
