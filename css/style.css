@@ -19,6 +19,7 @@
   font-style: italic;
 }
 
+/* blocks default */
 p, h1, h2, h3, h4, h5, li, a, address {
   margin: 0;
   padding: 0;
@@ -46,6 +47,7 @@ body {
   background: #feb;
 }
 
+/* inlines default */
 a {
 }
 
@@ -58,6 +60,11 @@ a:hover {
   color: #f90;
 }
 
+code {
+    background-color: #ffe;
+}
+
+/* site parts */
 div.images{
 /*
 #    background-color: #f8e0bb;

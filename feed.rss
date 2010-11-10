@@ -28,31 +28,39 @@
     <published>2010-10-30T04:07:10Z</published>
     <updated>2010-10-30T04:07:10Z</updated>
     <link href="http://udzura.quail-quill.org/about/udzura/" rel="alternate"/>
-    <content type="html">&lt;h1 id="me---udzura"&gt;me - @udzura&lt;/h1&gt;
+    <content type="html">&lt;h1&gt;me - @udzura&lt;/h1&gt;
 
-&lt;h2 id="me"&gt;me?&lt;/h2&gt;
+&lt;h2&gt;me?&lt;/h2&gt;
+
 &lt;p&gt;Uchio Kondo(@udzura) is a programmer.&lt;/p&gt;
+&lt;div class='images'&gt;
+  &lt;a href="/images/161725906.jpg" rel="lightbox" title="this is akubi."&gt;&lt;img src="/images/161725906.jpg"  /&gt;&lt;/a&gt;
+  &lt;div&gt;This is me.&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;skills&lt;/h3&gt;
 
-&lt;h3 id="skills"&gt;skills&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;Ruby Language (Jan, 2009 - )&lt;/li&gt;
-  &lt;li&gt;Linux Skills, especially Ubuntu/Debian&lt;/li&gt;
-  &lt;li&gt;Database Skills (Passed IPA(Japan) Database Specialist Exam on 2010)
-    &lt;ul&gt;
-      &lt;li&gt;MySQL&lt;/li&gt;
-      &lt;li&gt;Oracle&lt;/li&gt;
-      &lt;li&gt;SQL Server&lt;/li&gt;
-      &lt;li&gt;PostgreSQL&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Very little PHP&lt;/li&gt;
-  &lt;li&gt;Lerning Java/Scala/Groovy&amp;hellip;&lt;/li&gt;
-  &lt;li&gt;more&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Ruby &lt;code&gt;(?:Language|on Rails Framework)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Linux Skills, especially Ubuntu/Debian&lt;/li&gt;
+&lt;li&gt;Database Skills (Passed IPA(Japan) Database Specialist Exam on 2010)
+
+&lt;ul&gt;
+&lt;li&gt;MySQL&lt;/li&gt;
+&lt;li&gt;Oracle&lt;/li&gt;
+&lt;li&gt;SQL Server&lt;/li&gt;
+&lt;li&gt;PostgreSQL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Very little PHP&lt;/li&gt;
+&lt;li&gt;Lerning Java/Scala/Groovy...&lt;/li&gt;
+&lt;li&gt;more...&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id="bio"&gt;bio&lt;/h2&gt;
+
+&lt;h2&gt;bio&lt;/h2&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;FMS inc. since 2010-03-01&lt;/li&gt;
+&lt;li&gt;FMS inc. since 2010-03-01&lt;/li&gt;
 &lt;/ul&gt;
 </content>
   </entry>
