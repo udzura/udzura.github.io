@@ -139,7 +139,7 @@ div.images div{
   left: 20px;
   width: 200px;
 
-  padding: 20px 20px 0 0;
+  padding: 20px 20px 12em 0;
 
   border-right: 1px solid #ccc;
 
@@ -168,6 +168,8 @@ div.images div{
   font-size: 14px;
 
   line-height: 20px;
+  height: 21px;
+  overflow: hidden;
 }
 
 div#footer{
@@ -188,3 +190,4 @@ address{
     color: #aaaaaa;
     text-align:right;
 }
+
