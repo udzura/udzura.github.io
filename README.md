@@ -29,6 +29,20 @@ GitHub Pagesで公開する、近藤宇智朗（udzura）のポートフォリ�
 選びます。JavaScriptが無効な場合は日本語を表示します。
 `/slides/`は別のGitHub Pagesプロジェクトへのリンクで、このリポジトリには含めません。
 
+### 最新リリースの表示
+
+各OSSの`data-release-repo`をもとに、ブラウザから認証なしでGitHub APIの
+[`releases/latest`](https://docs.github.com/en/rest/releases/releases#get-the-latest-release)を取得します。
+GitHubが最新とする通常版リリースのタグとリンク、公開日時（`published_at`）からの経過日数を表示します。
+日時は`time`要素に保持し、ホバーで正確な公開日時を確認できます。経過時間は日英で表示し、7日未満は日、7日以上は週、30日以上は月、365日以上は年に切り替え、端数を切り捨てます。
+ドラフト・プレリリースは対象にしません。
+結果はlocalStorageに1時間保存し、期限後のページ表示時に再取得します。
+リリースがない場合や通信エラー・API制限時、JavaScript無効時はリリース一覧へのリンクを表示します。
+取得は8秒で打ち切り、APIエラーはキャッシュしません。
+
+認証なしのAPI制限は[送信元IPごとに1時間60リクエスト](https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api)です。
+初回は6プロジェクト分のリクエストを行います。APIトークンは使用しません。
+
 ## デプロイ
 
 `.github/workflows/pages.yml`でGitHub公式のPages Actionsを使用します。
