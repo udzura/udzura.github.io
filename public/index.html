@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f6f4ee">
+    <meta name="description" content="近藤宇智朗（udzura）。福岡在住のソフトウェアエンジニア。Ruby、mruby、Rust、WebAssembly、eBPFを中心としたOSSプロジェクトと翻訳の紹介。">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="udzura — Uchio Kondo">
+    <meta property="og:description" content="Ruby, WebAssembly, and beyond. Software, open source, and translation by Uchio Kondo.">
+    <meta property="og:url" content="https://udzura.jp/">
+    <title>udzura — Uchio Kondo</title>
+    <link rel="canonical" href="https://udzura.jp/">
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/assets/site.css">
+    <script src="/assets/site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main"><span lang="ja">本文へ移動</span><span lang="en">Skip to content</span></a>
+    <header class="site-header wrap">
+      <a class="brand" href="#" aria-label="Uchio Kondo home">Uchio Kondo <span>/ Portfolio</span></a>
+      <nav class="main-nav" aria-label="メインナビゲーション" data-label-ja="メインナビゲーション" data-label-en="Main navigation">
+        <a href="#about"><span lang="ja">プロフィール</span><span lang="en">About</span></a>
+        <a href="#projects">OSS</a>
+        <a href="#books"><span lang="ja">書籍</span><span lang="en">Books</span></a>
+        <a href="/slides/"><span lang="ja">スライド</span><span lang="en">Slides</span><span class="nav-arrow" aria-hidden="true">↗</span></a>
+      </nav>
+      <div class="language-switch" role="group" aria-label="表示言語" data-label-ja="表示言語" data-label-en="Language" hidden>
+        <button type="button" data-language="ja" aria-pressed="true" aria-label="日本語">JP</button>
+        <span aria-hidden="true">/</span>
+        <button type="button" data-language="en" aria-pressed="false" aria-label="English">EN</button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero wrap" aria-labelledby="hero-title">
+        <h1 id="hero-title">Uchio Kondo's Portfolio<span class="title-dot" aria-hidden="true">.</span></h1>
+      </section>
+
+      <section id="about" class="section wrap about-section" aria-labelledby="about-title">
+        <div class="section-label"><span class="section-number mono">01 /</span><h2 id="about-title"><span lang="ja">プロフィール</span><span lang="en">About me</span></h2></div>
+        <div class="about-content">
+          <div class="profile-heading">
+            <img class="portrait" src="/assets/portrait.png" alt="udzura" width="383" height="383" loading="lazy">
+            <div><h3 class="profile-name"><span lang="ja">近藤 宇智朗</span><span lang="en">Uchio Kondo</span></h3><p class="mono profile-handle">@udzura <span aria-hidden="true">/</span> Fukuoka, Japan</p></div>
+          </div>
+          <p class="profile-copy"><span lang="ja">福岡在住のソフトウェアエンジニア。Rubyを軸に、mruby、Rust、WebAssembly、eBPFなどに取り組んでいます。言語処理系や可観測性、Google Cloud・Cloudflareといったクラウド基盤に興味があります。</span><span lang="en">I’m a software engineer based in Fukuoka, Japan. My work centers on Ruby, mruby, Rust, WebAssembly, and eBPF. I’m interested in language runtimes, observability, and cloud platforms including Google Cloud and Cloudflare.</span></p>
+          <ul class="topics" aria-label="技術・関心分野" data-label-ja="技術・関心分野" data-label-en="Technologies and interests"><li>Ruby</li><li>mruby</li><li>Rust</li><li>Wasm</li><li>eBPF</li><li>Google Cloud</li><li>Cloudflare</li></ul>
+          <div class="profile-links"><a class="text-link" href="https://github.com/udzura">GitHub <span aria-hidden="true">↗</span></a><a class="text-link" href="https://udzura.hatenablog.jp/"><span lang="ja">ブログ</span><span lang="en">Blog <span class="link-note">(in Japanese)</span></span><span aria-hidden="true">↗</span></a></div>
+        </div>
+      </section>
+
+      <section id="projects" class="section wrap projects-section" aria-labelledby="projects-title">
+        <div class="section-topline">
+          <div class="section-label"><span class="section-number mono">02 /</span><h2 id="projects-title"><span lang="ja">オープンソース</span><span lang="en">Open source</span></h2></div>
+          <p class="section-note"><span lang="ja">つくりながら、深く知る。</span><span lang="en">A way of learning by building.</span></p>
+        </div>
+        <div class="project-list">
+          <article class="project">
+            <div class="project-id mono"><span>01</span></div>
+            <div class="project-main"><p class="project-category mono">RUBY × eBPF</p><h3><a href="https://github.com/udzura/rbbcc#readme">RbBCC<span class="project-arrow" aria-hidden="true">↗</span></a></h3><p><span lang="ja">eBPFのためのツールキット、BCCをRubyから。MRI向けのバインディングを通じて、RubyでLinuxのトレーシングを扱うプロジェクト。</span><span lang="en">BCC, the eBPF toolkit, from Ruby. MRI bindings for exploring Linux tracing with the language I use every day.</span></p></div>
+            <div class="project-meta"><span class="project-tag">Ruby</span><a class="readme-link mono" href="https://github.com/udzura/rbbcc#readme">README <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project">
+            <div class="project-id mono"><span>02</span></div>
+            <div class="project-main"><p class="project-category mono">WEBASSEMBLY IN RUBY</p><h3><a href="https://github.com/udzura/wardite#readme">Wardite<span class="project-arrow" aria-hidden="true">↗</span></a></h3><p><span lang="ja">Pure Rubyで実装するWebAssemblyランタイム。Wasmを実行する仕組みをRubyで組み立て、RBSによる型付けも行っています。</span><span lang="en">A WebAssembly runtime implemented in pure Ruby. Exploring how Wasm executes, with RBS types throughout the implementation.</span></p></div>
+            <div class="project-meta"><span class="project-tag">Ruby</span><a class="readme-link mono" href="https://github.com/udzura/wardite#readme">README <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project">
+            <div class="project-id mono"><span>03</span></div>
+            <div class="project-main"><p class="project-category mono">RUBY ON WEBASSEMBLY</p><h3><a href="https://github.com/mrubyedge/mrubyedge#readme">mruby/edge<span class="project-arrow" aria-hidden="true">↗</span></a></h3><p><span lang="ja">WebAssemblyに特化した、Rust製のmruby互換VM。RubyをWasmで動かすための実行系と、コンパイル・実行を支えるCLIを開発しています。</span><span lang="en">An mruby-compatible VM written in Rust and focused on WebAssembly, with a CLI for running Ruby and compiling it to Wasm.</span></p></div>
+            <div class="project-meta"><span class="project-tag">Rust</span><a class="readme-link mono" href="https://github.com/mrubyedge/mrubyedge#readme">README <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project">
+            <div class="project-id mono"><span>04</span></div>
+            <div class="project-main"><p class="project-category mono">RUBY AT THE EDGE</p><h3><a href="https://github.com/uzumibirb/uzumibi#readme">Uzumibi<span class="project-arrow" aria-hidden="true">↗</span></a></h3><p><span lang="ja">Rubyをエッジやサーバーレスへ届けるWebフレームワークとプロジェクトジェネレーター。mruby/edgeを使い、Cloudflare WorkersなどのWasm環境でアプリケーションを動かします。</span><span lang="en">A Ruby web framework and project generator for Wasm-based edge and serverless runtimes. Powered by mruby/edge, with support for platforms including Cloudflare Workers.</span></p></div>
+            <div class="project-meta"><span class="project-tag">Ruby / Rust</span><a class="readme-link mono" href="https://github.com/uzumibirb/uzumibi#readme">README <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project">
+            <div class="project-id mono"><span>05</span></div>
+            <div class="project-main"><p class="project-category mono">RUBY × OBSERVABILITY</p><h3><a href="https://github.com/udzura/orange_tap#readme">OrangeTap<span class="project-arrow" aria-hidden="true">↗</span></a></h3><p><span lang="ja">Rubyのメソッド呼び出しをTracePointで捉え、OpenTelemetry形式のスパンとして記録。単一プロセス内で動作し、OTLP/JSONファイルを出力するトレーシングツール。</span><span lang="en">Trace Ruby method calls with TracePoint and record them as OpenTelemetry-style spans. Runs within a single process and exports traces as OTLP/JSON.</span></p></div>
+            <div class="project-meta"><span class="project-tag">Ruby</span><a class="readme-link mono" href="https://github.com/udzura/orange_tap#readme">README <span aria-hidden="true">↗</span></a></div>
+          </article>
+        </div>
+        <a class="text-link all-projects" href="https://github.com/udzura?tab=repositories"><span lang="ja">その他のプロジェクトはGitHubで</span><span lang="en">More projects on GitHub</span><span aria-hidden="true">↗</span></a>
+      </section>
+
+      <section id="books" class="book-section" aria-labelledby="books-title">
+        <div class="wrap book-layout">
+          <div class="section-label"><span class="section-number mono">03 /</span><h2 id="books-title"><span lang="ja">書籍・翻訳</span><span lang="en">Books &amp; translation</span></h2></div>
+          <div class="book-cover"><a href="https://www.oreilly.co.jp/books/9784814400560/" aria-label="入門 eBPF — 出版社の書籍紹介" data-label-ja="入門 eBPF — 出版社の書籍紹介" data-label-en="Learning eBPF, Japanese edition — publisher’s page"><img src="/assets/learning-ebpf.jpeg" alt="入門 eBPF 書影" data-alt-ja="入門 eBPF 書影" data-alt-en="Cover of the Japanese edition of Learning eBPF" width="516" height="660" loading="lazy"></a></div>
+          <div class="book-copy">
+            <p class="eyebrow"><span lang="ja">共訳 / O’REILLY JAPAN / 2023</span><span lang="en">CO-TRANSLATION / O’REILLY JAPAN / 2023</span></p>
+            <h3><span lang="ja">入門 eBPF</span><span lang="en">Learning eBPF</span></h3>
+            <p class="book-subtitle"><span lang="ja">Linuxカーネルの可視化と機能拡張</span><span lang="en">Japanese edition · 入門 eBPF</span></p>
+            <p class="book-description"><span lang="ja">Liz Rice著『Learning eBPF』の日本語版を共訳しました。eBPFの仕組みとプログラミングを通じて、Linuxカーネルの可視化や機能拡張を学ぶ一冊です。</span><span lang="en">I co-translated Liz Rice’s Learning eBPF into Japanese. An introduction to eBPF programming and the mechanisms behind observing and extending the Linux kernel.</span></p>
+            <p class="book-credits"><span lang="ja">Liz Rice 著<br>武内 覚・近藤 宇智朗 訳</span><span lang="en">Written by Liz Rice<br>Translated by Satoru Takeuchi &amp; Uchio Kondo</span></p>
+            <a class="text-link" href="https://www.oreilly.co.jp/books/9784814400560/"><span lang="ja">出版社のページへ</span><span lang="en">View at O’Reilly Japan</span><span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="slides-section wrap" aria-labelledby="slides-title">
+        <div class="section-label"><span class="section-number mono">04 /</span><h2 id="slides-title"><span lang="ja">登壇・スライド</span><span lang="en">Talks &amp; slides</span></h2></div>
+        <a class="slides-link" href="/slides/"><span><span class="slides-title" lang="ja">話したこと、<br>考えていること。</span><span class="slides-title" lang="en">Ideas, shared<br>out loud.</span><span class="slides-description"><span lang="ja">これまでの登壇資料はこちらから。</span><span lang="en">Explore my presentation archive.</span></span><span class="mono slides-path">/slides/</span></span><span class="slides-arrow" aria-hidden="true">↗</span></a>
+      </section>
+    </main>
+
+    <footer class="site-footer wrap">
+      <div class="footer-top"><a class="brand" href="#">Uchio Kondo <span>/ Portfolio</span></a><p class="footer-contact"><span lang="ja">お問い合わせ</span><span lang="en">Contact</span><span class="mono">TBA</span></p></div>
+      <div class="footer-bottom"><span>© <span id="copyright-year">2026</span> Uchio Kondo</span><span class="mono">FUKUOKA, JAPAN</span><a href="#"><span lang="ja">ページの先頭へ</span><span lang="en">Back to top</span> ↑</a></div>
+    </footer>
+  </body>
+</html>
