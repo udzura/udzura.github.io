@@ -11,6 +11,7 @@
     <meta property="og:url" content="https://udzura.jp/">
     <title>udzura — Uchio Kondo</title>
     <link rel="canonical" href="https://udzura.jp/">
+    <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48 64x64 128x128 256x256" type="image/x-icon">
     <link rel="icon" href="/assets/favicon-32.png" type="image/png" sizes="32x32">
     <link rel="icon" href="/assets/favicon.svg?v=akubi" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" sizes="180x180">
@@ -60,26 +61,31 @@
         <div class="project-list">
           <article class="project">
             <div class="project-id mono"><span>01</span></div>
+            <div class="project-main"><p class="project-category mono">MRUBY × LINUX CONTAINERS</p><h3><a href="https://github.com/haconiwa/haconiwa#readme">Haconiwa<span class="project-arrow" aria-hidden="true">↗</span></a></h3><p><span lang="ja">mrubyのDSLでLinuxコンテナを構築・制御するランタイム。namespace、cgroup、capabilitiesなどを組み合わせ、自分のコンテナをRubyで記述するために開発しました。</span><span lang="en">A Linux container runtime built with mruby. I developed it to describe and control containers through a Ruby DSL, combining namespaces, cgroups, capabilities, and other Linux features.</span></p></div>
+            <div class="project-meta"><div class="project-branding"><img class="project-logo" src="/assets/haconiwa.png" alt="" width="1042" height="893" loading="lazy"><span class="project-tag">mruby / C</span></div><a class="readme-link mono" href="https://github.com/haconiwa/haconiwa#readme">README <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project">
+            <div class="project-id mono"><span>02</span></div>
             <div class="project-main"><p class="project-category mono">RUBY × eBPF</p><h3><a href="https://github.com/udzura/rbbcc#readme">RbBCC<span class="project-arrow" aria-hidden="true">↗</span></a></h3><p><span lang="ja">eBPFのためのツールキット、BCCをRubyから。MRI向けのバインディングを通じて、RubyでLinuxのトレーシングを扱うプロジェクト。</span><span lang="en">BCC, the eBPF toolkit, from Ruby. MRI bindings for exploring Linux tracing with the language I use every day.</span></p></div>
             <div class="project-meta"><span class="project-tag">Ruby</span><a class="readme-link mono" href="https://github.com/udzura/rbbcc#readme">README <span aria-hidden="true">↗</span></a></div>
           </article>
           <article class="project">
-            <div class="project-id mono"><span>02</span></div>
+            <div class="project-id mono"><span>03</span></div>
             <div class="project-main"><p class="project-category mono">WEBASSEMBLY IN RUBY</p><h3><a href="https://github.com/udzura/wardite#readme">Wardite<span class="project-arrow" aria-hidden="true">↗</span></a></h3><p><span lang="ja">Pure Rubyで実装するWebAssemblyランタイム。Wasmを実行する仕組みをRubyで組み立て、RBSによる型付けも行っています。</span><span lang="en">A WebAssembly runtime implemented in pure Ruby. Exploring how Wasm executes, with RBS types throughout the implementation.</span></p></div>
             <div class="project-meta"><span class="project-tag">Ruby</span><a class="readme-link mono" href="https://github.com/udzura/wardite#readme">README <span aria-hidden="true">↗</span></a></div>
           </article>
           <article class="project">
-            <div class="project-id mono"><span>03</span></div>
+            <div class="project-id mono"><span>04</span></div>
             <div class="project-main"><p class="project-category mono">RUBY ON WEBASSEMBLY</p><h3><a href="https://github.com/mrubyedge/mrubyedge#readme">mruby/edge<span class="project-arrow" aria-hidden="true">↗</span></a></h3><p><span lang="ja">WebAssemblyに特化した、Rust製のmruby互換VM。RubyをWasmで動かすための実行系と、コンパイル・実行を支えるCLIを開発しています。</span><span lang="en">An mruby-compatible VM written in Rust and focused on WebAssembly, with a CLI for running Ruby and compiling it to Wasm.</span></p></div>
             <div class="project-meta"><div class="project-branding"><img class="project-logo" src="/assets/mrubyedge.svg" alt="" width="96" height="96" loading="lazy"><span class="project-tag">Rust</span></div><a class="readme-link mono" href="https://github.com/mrubyedge/mrubyedge#readme">README <span aria-hidden="true">↗</span></a></div>
           </article>
           <article class="project">
-            <div class="project-id mono"><span>04</span></div>
+            <div class="project-id mono"><span>05</span></div>
             <div class="project-main"><p class="project-category mono">RUBY AT THE EDGE</p><h3><a href="https://github.com/uzumibirb/uzumibi#readme">Uzumibi<span class="project-arrow" aria-hidden="true">↗</span></a></h3><p><span lang="ja">Rubyをエッジやサーバーレスへ届けるWebフレームワークとプロジェクトジェネレーター。mruby/edgeを使い、Cloudflare WorkersなどのWasm環境でアプリケーションを動かします。</span><span lang="en">A Ruby web framework and project generator for Wasm-based edge and serverless runtimes. Powered by mruby/edge, with support for platforms including Cloudflare Workers.</span></p></div>
             <div class="project-meta"><div class="project-branding"><img class="project-logo" src="/assets/uzumibi.svg" alt="" width="96" height="96" loading="lazy"><span class="project-tag">Ruby / Rust</span></div><a class="readme-link mono" href="https://github.com/uzumibirb/uzumibi#readme">README <span aria-hidden="true">↗</span></a></div>
           </article>
           <article class="project">
-            <div class="project-id mono"><span>05</span></div>
+            <div class="project-id mono"><span>06</span></div>
             <div class="project-main"><p class="project-category mono">RUBY × OBSERVABILITY</p><h3><a href="https://github.com/udzura/orange_tap#readme">OrangeTap<span class="project-arrow" aria-hidden="true">↗</span></a></h3><p><span lang="ja">Rubyのメソッド呼び出しをTracePointで捉え、OpenTelemetry形式のスパンとして記録。単一プロセス内で動作し、OTLP/JSONファイルを出力するトレーシングツール。</span><span lang="en">Trace Ruby method calls with TracePoint and record them as OpenTelemetry-style spans. Runs within a single process and exports traces as OTLP/JSON.</span></p></div>
             <div class="project-meta"><span class="project-tag">Ruby</span><a class="readme-link mono" href="https://github.com/udzura/orange_tap#readme">README <span aria-hidden="true">↗</span></a></div>
           </article>
@@ -104,7 +110,10 @@
 
       <section class="slides-section wrap" aria-labelledby="slides-title">
         <div class="section-label"><span class="section-number mono">04 /</span><h2 id="slides-title"><span lang="ja">登壇・スライド</span><span lang="en">Talks &amp; slides</span></h2></div>
-        <a class="slides-link" href="/slides/"><span><span class="slides-title" lang="ja">話したこと、<br>考えていること。</span><span class="slides-title" lang="en">Ideas, shared<br>out loud.</span><span class="slides-description"><span lang="ja">これまでの登壇資料はこちらから。</span><span lang="en">Explore my presentation archive.</span></span><span class="mono slides-path">/slides/</span></span><span class="slides-arrow" aria-hidden="true">↗</span></a>
+        <div class="talks-content">
+          <a class="slides-link" href="/slides/"><span><span class="slides-title" lang="ja">話したこと、<br>考えていること。</span><span class="slides-title" lang="en">Ideas, shared<br>out loud.</span><span class="slides-description"><span lang="ja">これまでの登壇資料はこちらから。</span><span lang="en">Explore my presentation archive.</span></span><span class="mono slides-path">/slides/</span></span><span class="slides-arrow" aria-hidden="true">↗</span></a>
+          <a class="text-link talks-list" href="https://www.rubyevents.org/profiles/udzura/talks"><span lang="ja">Ruby関連の登壇一覧（RubyEvents）</span><span lang="en">Ruby talks on RubyEvents</span><span aria-hidden="true">↗</span></a>
+        </div>
       </section>
     </main>
 

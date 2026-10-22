@@ -12,6 +12,7 @@ GitHub Pagesで公開する、近藤宇智朗（udzura）のポートフォリ�
 - `assets/site.js`：再読み込みなしの言語切り替え、URLとブラウザへの選択の保存。
 - `assets/`：プロフィール画像、書影、favicon。
 - `404.html`：旧URLや存在しないページ向けの案内。
+- `favicon.ico`：公開ルートのfavicon。AkubiのSVGから生成した16〜256pxのICO。
 
 配色・書体・罫線・ヘッダーは[スライド一覧](https://udzura.jp/slides/)の
 `docs/assets/archive.css`に合わせています。共有する基本色は以下の通りです。
@@ -69,6 +70,7 @@ python3 -m http.server 8000 --directory public
 
 OSSの説明は以下のREADMEをもとに要約しています（2026-10-22確認）。
 
+- [Haconiwa](https://github.com/haconiwa/haconiwa#readme)
 - [RbBCC](https://github.com/udzura/rbbcc#readme)
 - [Wardite](https://github.com/udzura/wardite#readme)
 - [mruby/edge](https://github.com/mrubyedge/mrubyedge#readme)
@@ -76,7 +78,9 @@ OSSの説明は以下のREADMEをもとに要約しています（2026-10-22確�
 - [OrangeTap](https://github.com/udzura/orange_tap#readme)
 
 『入門 eBPF』の書誌情報と書影は[オライリー・ジャパン](https://www.oreilly.co.jp/books/9784814400560/)より。
+Ruby関連の登壇一覧は[RubyEvents](https://www.rubyevents.org/profiles/udzura/talks)にリンクしています。
 プロフィール画像は本人提供の2026年の写真を使用しています。
 faviconはペットのAkubiをモチーフに、立ち耳・白い頬・藍色のバンダナをSVGで表現しています。
 mruby/edgeのロゴは[公式サイトのアイコン](https://github.com/mrubyedge/mrubyedge.github.io/blob/main/assets/mrubyedge-icon.svg)、
 Uzumibiのロゴは[公式リポジトリ](https://github.com/uzumibirb/uzumibi/blob/main/logo.svg)より。
+Haconiwaのロゴは[公式リポジトリ](https://github.com/haconiwa/haconiwa/blob/master/images/haconiwa-logo.png)より。

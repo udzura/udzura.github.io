@@ -100,6 +100,8 @@ h1, h2, h3, p { margin: 0; }
 .book-credits { color: var(--muted); font-size: 12px; line-height: 1.9; margin-block: 20px; }
 
 .slides-section { display: grid; grid-template-columns: 1fr 2fr; gap: 50px; padding-block: 30px 70px; border-bottom: 1px solid var(--ink); }
+.talks-content { min-width: 0; }
+.talks-list { margin-top: 30px; }
 .slides-link { display: flex; align-items: center; justify-content: space-between; gap: 35px; padding: 12px; margin: -12px; transition: background .18s; }
 .slides-link:hover { background: var(--surface); }
 .slides-title { display: block; font-size: 36px; font-weight: 550; line-height: 1.45; letter-spacing: -.045em; }
