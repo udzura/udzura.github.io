@@ -84,3 +84,8 @@ faviconはペットのAkubiをモチーフに、立ち耳・白い頬・藍色�
 mruby/edgeのロゴは[公式サイトのアイコン](https://github.com/mrubyedge/mrubyedge.github.io/blob/main/assets/mrubyedge-icon.svg)、
 Uzumibiのロゴは[公式リポジトリ](https://github.com/uzumibirb/uzumibi/blob/main/logo.svg)より。
 Haconiwaのロゴは[公式リポジトリ](https://github.com/haconiwa/haconiwa/blob/master/images/haconiwa-logo.png)より。
+
+RbBCC・Wardite・OrangeTapのアイコンは、このポートフォリオ用に制作したSVGです。
+mruby/edgeの色面・白い記号・濃いオフセット影を共通のスタイルとし、
+RbBCCはトレース線とRubyの菱形、Warditeは結晶をイメージしたW、
+OrangeTapは名前の由来である「みかんの蛇口」をモチーフにしています。

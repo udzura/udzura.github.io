@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title description">
+  <title id="title">RbBCC icon</title>
+  <desc id="description">A Ruby diamond on an angular kernel trace, with a dark offset shadow.</desc>
+  <rect width="1024" height="1024" fill="#f8f5f0"/>
+  <path fill="#17141f" d="M418 230h324c75.1 0 136 60.9 136 136v324c0 75.1-60.9 136-136 136H324c-23.2 0-42-18.8-42-42V366c0-75.1 60.9-136 136-136Z"/>
+  <path fill="#b52c50" d="M350 162h324c75.1 0 136 60.9 136 136v324c0 75.1-60.9 136-136 136H256c-23.2 0-42-18.8-42-42V298c0-75.1 60.9-136 136-136Z"/>
+  <path d="M326 506h78l48-112 70 208 48-96h112" fill="none" stroke="#fff" stroke-width="48" stroke-linejoin="miter"/>
+  <path d="m570 350 52-52 52 52-52 52Z" fill="#fff"/>
+</svg>
