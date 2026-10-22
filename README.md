@@ -77,3 +77,6 @@ OSSの説明は以下のREADMEをもとに要約しています（2026-10-22確�
 
 『入門 eBPF』の書誌情報と書影は[オライリー・ジャパン](https://www.oreilly.co.jp/books/9784814400560/)より。
 プロフィール画像は本人提供の2026年の写真を使用しています。
+faviconはペットのAkubiをモチーフに、立ち耳・白い頬・藍色のバンダナをSVGで表現しています。
+mruby/edgeのロゴは[公式サイトのアイコン](https://github.com/mrubyedge/mrubyedge.github.io/blob/main/assets/mrubyedge-icon.svg)、
+Uzumibiのロゴは[公式リポジトリ](https://github.com/uzumibirb/uzumibi/blob/main/logo.svg)より。
