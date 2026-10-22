@@ -87,5 +87,5 @@ Haconiwaのロゴは[公式リポジトリ](https://github.com/haconiwa/haconiwa
 
 RbBCC・Wardite・OrangeTapのアイコンは、このポートフォリオ用に制作したSVGです。
 mruby/edgeの色面・白い記号・濃いオフセット影を共通のスタイルとし、
-RbBCCはトレース線とRubyの菱形、Warditeは結晶をイメージしたW、
+RbBCCは宝石形の羽を持つ蜂、Warditeは結晶をイメージしたW、
 OrangeTapは名前の由来である「みかんの蛇口」をモチーフにしています。
