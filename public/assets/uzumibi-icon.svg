@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title description">
+  <title id="title">Uzumibi icon</title>
+  <desc id="description">A white angular U with an ember and flame on an orange-red tile, with a dark offset shadow.</desc>
+  <rect width="1024" height="1024" fill="#f8f5f0"/>
+  <path fill="#17141f" d="M418 230h324c75.1 0 136 60.9 136 136v324c0 75.1-60.9 136-136 136H324c-23.2 0-42-18.8-42-42V366c0-75.1 60.9-136 136-136Z"/>
+  <path fill="#ff4b1f" d="M350 162h324c75.1 0 136 60.9 136 136v324c0 75.1-60.9 136-136 136H256c-23.2 0-42-18.8-42-42V298c0-75.1 60.9-136 136-136Z"/>
+  <g fill="#fff" transform="translate(224 218) scale(.9)">
+    <path d="M155 84 L255 159 L255 354 L320 405 L385 354 L385 159 L485 84 L485 356 L370 454 L270 454 L155 356 Z"/>
+    <path d="M272 292 L320 329 L368 292 L368 345 L320 382 L272 345 Z"/>
+    <path d="M320 318 C295 299 293 269 320 234 C316 260 329 277 350 298 Z"/>
+  </g>
+</svg>

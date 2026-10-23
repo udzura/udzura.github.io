@@ -103,3 +103,6 @@ RbBCC・Wardite・OrangeTapのアイコンは、このポートフォリオ用�
 mruby/edgeの色面・白い記号・濃いオフセット影を共通のスタイルとし、
 RbBCCは宝石形の羽を持つ蜂、Warditeは結晶をイメージしたW、
 OrangeTapは名前の由来である「みかんの蛇口」をモチーフにしています。
+
+Uzumibiの掲載アイコン（`uzumibi-icon.svg`）は、公式ロゴのU・熾火・炎の形を白抜きにし、
+オレンジ色の丸四角と濃い影を組み合わせています。元のロゴは`uzumibi.svg`に保持しています。
