@@ -94,7 +94,8 @@ OSSの説明は以下のREADMEをもとに要約しています（2026-10-22確�
 『入門 eBPF』の書誌情報と書影は[オライリー・ジャパン](https://www.oreilly.co.jp/books/9784814400560/)より。
 Ruby関連の登壇一覧は[RubyEvents](https://www.rubyevents.org/profiles/udzura/talks)にリンクしています。
 プロフィール画像は本人提供の2026年の写真を使用しています。
-faviconはペットのAkubiをモチーフに、立ち耳・白い頬・藍色のバンダナをSVGで表現しています。
+faviconはAkubiの立ち耳・胴体・巻き尾を白いシルエットにし、藍色の丸四角と濃い影に組み合わせています。
+元のfaviconは各形式のファイル名に`-old`を付けて保存しています（`favicon-old.ico`、`favicon-old.svg`、`favicon-32-old.png`、`apple-touch-icon-old.png`）。
 mruby/edgeのロゴは[公式サイトのアイコン](https://github.com/mrubyedge/mrubyedge.github.io/blob/main/assets/mrubyedge-icon.svg)、
 Uzumibiのロゴは[公式リポジトリ](https://github.com/uzumibirb/uzumibi/blob/main/logo.svg)より。
 Haconiwaのロゴは[公式リポジトリ](https://github.com/haconiwa/haconiwa/blob/master/images/haconiwa-logo.png)より。

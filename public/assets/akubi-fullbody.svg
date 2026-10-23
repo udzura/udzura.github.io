@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title description">
+  <title id="title">Akubi full-body icon</title>
+  <desc id="description">A minimal white dog silhouette with pointed ears and a curled tail on an indigo tile with a dark offset shadow.</desc>
+  <rect width="1024" height="1024" fill="#f8f5f0"/>
+  <path fill="#17141f" d="M418 230h324c75.1 0 136 60.9 136 136v324c0 75.1-60.9 136-136 136H324c-23.2 0-42-18.8-42-42V366c0-75.1 60.9-136 136-136Z"/>
+  <path fill="#283d72" d="M350 162h324c75.1 0 136 60.9 136 136v324c0 75.1-60.9 136-136 136H256c-23.2 0-42-18.8-42-42V298c0-75.1 60.9-136 136-136Z"/>
+  <!-- One silhouette: pointed ears, chest, back and two visible legs. -->
+  <path fill="#fff" d="M370 302 424 338 476 338 530 302 530 414 562 440 630 440 654 474 654 622 606 622 592 536 468 536 452 622 404 622 404 468 370 426Z"/>
+  <!-- A single open curl, joined to the back. -->
+  <path d="M626 464c67-8 74-88 25-96-34-6-55 28-35 48" fill="none" stroke="#fff" stroke-width="32" stroke-linecap="butt"/>
+</svg>

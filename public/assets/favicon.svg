@@ -1,15 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
-  <title id="title">Akubi, a Shiba Inu with an indigo bandana</title>
-  <rect width="64" height="64" rx="12" fill="#f6f4ee"/>
-  <path d="M18 46h28L33 61q-1 1-2 0Z" fill="#283d72" stroke="#292923" stroke-width="2" stroke-linejoin="round"/>
-  <path d="M10 26 8 8q0-4 4-2l12 10q8-3 16 0L52 6q4-2 4 2l-2 18q6 8 1 16-6 10-23 10T9 42q-5-8 1-16Z" fill="#efa333" stroke="#292923" stroke-width="2.5" stroke-linejoin="round"/>
-  <path d="m12 12 8 7-7 4Zm40 0-8 7 7 4Z" fill="#fff0ce"/>
-  <path d="M9 35q8-7 17 2 6-5 12 0 9-9 17-2 0 14-23 16Q9 49 9 35Z" fill="#fff0ce"/>
-  <path d="m21 23 3 1m16 0 3-1" stroke="#fff0ce" stroke-width="4" stroke-linecap="round"/>
-  <g fill="#292923">
-    <circle cx="23" cy="30" r="2.5"/>
-    <circle cx="41" cy="30" r="2.5"/>
-    <path d="M28 37q4-3 8 0 0 4-4 5-4-1-4-5Z"/>
-  </g>
-  <path d="M32 41v3m-7-1q3 5 7 1 4 4 7-1" fill="none" stroke="#292923" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title description">
+  <title id="title">Akubi full-body icon</title>
+  <desc id="description">A minimal white dog silhouette with pointed ears and a curled tail on an indigo tile with a dark offset shadow.</desc>
+  <rect width="1024" height="1024" fill="#f8f5f0"/>
+  <path fill="#17141f" d="M418 230h324c75.1 0 136 60.9 136 136v324c0 75.1-60.9 136-136 136H324c-23.2 0-42-18.8-42-42V366c0-75.1 60.9-136 136-136Z"/>
+  <path fill="#283d72" d="M350 162h324c75.1 0 136 60.9 136 136v324c0 75.1-60.9 136-136 136H256c-23.2 0-42-18.8-42-42V298c0-75.1 60.9-136 136-136Z"/>
+  <!-- One silhouette: pointed ears, chest, back and two visible legs. -->
+  <path fill="#fff" d="M370 302 424 338 476 338 530 302 530 414 562 440 630 440 654 474 654 622 606 622 592 536 468 536 452 622 404 622 404 468 370 426Z"/>
+  <!-- A single open curl, joined to the back. -->
+  <path d="M626 464c67-8 74-88 25-96-34-6-55 28-35 48" fill="none" stroke="#fff" stroke-width="32" stroke-linecap="butt"/>
 </svg>

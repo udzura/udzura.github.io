@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title description">
+  <title id="title">Akubi icon</title>
+  <desc id="description">A white Shiba Inu with pointed ears and a bandana on an indigo tile, with a dark offset shadow.</desc>
+  <rect width="1024" height="1024" fill="#f8f5f0"/>
+  <path fill="#17141f" d="M418 230h324c75.1 0 136 60.9 136 136v324c0 75.1-60.9 136-136 136H324c-23.2 0-42-18.8-42-42V366c0-75.1 60.9-136 136-136Z"/>
+  <path fill="#283d72" d="M350 162h324c75.1 0 136 60.9 136 136v324c0 75.1-60.9 136-136 136H256c-23.2 0-42-18.8-42-42V298c0-75.1 60.9-136 136-136Z"/>
+  <g transform="translate(61.44 0) scale(.88 1)">
+  <path fill="#fff" d="m342 426-12-120 104 64 42-14h72l42 14 104-64-12 120 22 54-28 54-88 44H436l-88-44-28-54Z"/>
+  <g fill="#283d72">
+    <path d="m360 350 47 31-41 17Zm304 0-47 31 41 17Z"/>
+    <path d="m416 438 28 8-8 22-28-8Zm192 0-28 8 8 22 28-8Z"/>
+    <path d="m486 492 26-8 26 8-26 28Z"/>
+  </g>
+  <path d="M512 516v18l-24 12-20-10m44-2 24 12 20-10" fill="none" stroke="#283d72" stroke-width="12" stroke-linejoin="round"/>
+  </g>
+  <path fill="#fff" d="M462 598h100l-50 50Z"/>
+</svg>
