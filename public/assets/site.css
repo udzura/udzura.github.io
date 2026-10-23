@@ -122,6 +122,12 @@ h1, h2, h3, p { margin: 0; }
 .footer-bottom { display: flex; align-items: center; justify-content: space-between; gap: 18px; font-size: 12px; color: var(--muted); }
 .footer-bottom > .mono { font-size: 10px; letter-spacing: .08em; }
 .footer-bottom a:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 4px; }
+.quail-egg { position: relative; }
+.quail-egg summary { font-size: 10px; letter-spacing: .08em; list-style: none; cursor: pointer; }
+.quail-egg summary::-webkit-details-marker { display: none; }
+.quail-egg summary:hover, .quail-egg[open] summary { color: #aa66cc; }
+.quail-egg summary:focus-visible { outline: 2px solid #aa66cc; outline-offset: 5px; }
+.quail-egg img { position: absolute; bottom: calc(100% + 12px); left: 50%; transform: translateX(-50%); width: 132px; height: 132px; }
 .not-found { min-height: 100svh; display: grid; align-items: center; }
 .not-found h1 { font-size: clamp(48px, 7vw, 90px); line-height: 1.1; font-weight: 650; letter-spacing: -.065em; margin-block: 25px; }
 .not-found main > p:not(.eyebrow) { color: var(--muted); margin-bottom: 30px; }

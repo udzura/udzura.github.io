@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title description">
+  <title id="title">Udzura quail icon</title>
+  <desc id="description">A minimal white quail with a small head, round body and short beak on a purple tile with a dark offset shadow.</desc>
+  <rect width="1024" height="1024" fill="#f8f5f0"/>
+  <path fill="#17141f" d="M418 230h324c75.1 0 136 60.9 136 136v324c0 75.1-60.9 136-136 136H324c-23.2 0-42-18.8-42-42V366c0-75.1 60.9-136 136-136Z"/>
+  <path fill="#aa66cc" d="M350 162h324c75.1 0 136 60.9 136 136v324c0 75.1-60.9 136-136 136H256c-23.2 0-42-18.8-42-42V298c0-75.1 60.9-136 136-136Z"/>
+  <!-- Rounded silhouette, enlarged around the center of the tile. -->
+  <g transform="translate(512 464) scale(1.08) translate(-512 -464)">
+    <path fill="#fff" d="M364 360c0-48 30-78 73-78 48 0 75 35 78 79l19 40c86 17 147 77 147 151l19 43-45-11c-31 30-79 42-130 33-91-16-143-79-143-159l-1-62-43-13Z"/>
+    <path d="M489 455c-5 59 37 101 106 101" fill="none" stroke="#aa66cc" stroke-width="18" stroke-linejoin="miter"/>
+    <path d="m492 604-15 39h-31m119-28-12 28h-26" fill="none" stroke="#fff" stroke-width="20" stroke-linejoin="miter"/>
+  </g>
+</svg>
