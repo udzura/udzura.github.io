@@ -110,3 +110,9 @@ Uzumibiの掲載アイコン（`uzumibi-icon.svg`）は、公式ロゴのU・熾
 
 フッターの`FUKUOKA, JAPAN`を開くと、テーマカラー`#aa66cc`のうずらが現れます。
 `details`要素を使っており、キーボード操作・JavaScript無効時にも開閉できます。
+
+ヘッダーの登壇写真はjimlock氏提供（`IMG_4854.jpg`）。960px・1920px幅のWebPで配信し、
+写真は画面幅いっぱいに表示し、デスクトップはCSSで横長に、モバイルは写真全体を表示します。キャッチフレーズは日英共通の「Community empowered.」です。
+
+OGP画像は`assets/ogp.png`（1200×630）です。編集用の`assets/ogp.svg`に写真を埋め込み、
+写真・キャッチフレーズ・氏名・jimlock氏のクレジットをまとめています。トップページのOGPとTwitterカードに設定しています。
